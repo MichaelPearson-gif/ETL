@@ -9,7 +9,7 @@ CREATE TABLE crime (
   strata_level_name text,
   no_of_crime int,	
   population int,
-  rate INT
+  rate float
 );
 
 select * from crime;
@@ -21,9 +21,9 @@ CREATE TABLE gdp (
 	Taxable_Year INT,
 	Year_Time_Date TIMESTAMP,
 	County text,
-	Adjusted_Gross_Income bigint,
-    Tax_Assessed bigint,
-    Latitude bigint,
-    Longitude bigint);
+	Adjusted_Gross_Income float,
+    Tax_Assessed float,
+    Latitude float,
+    Longitude float);
 
 select * from gdp;
